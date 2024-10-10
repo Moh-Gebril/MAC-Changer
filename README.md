@@ -33,7 +33,7 @@ This tool provides a simple and easy-to-use command-line interface (CLI) to modi
 ## Usage
 
 To change the MAC address of an interface, execute the following command:
-  python src/mac_changer.py -i <interface> -m <new_mac_address>
+  python3 src/mac_changer.py -i <interface> -m <new_mac_address>
 
 - `<interface>`: Specify the interface for which you want to change the MAC address. Example: eth0, wlan0
 - `<new_mac_address>`: Enter the new MAC address you wish to assign to the interface. If not specified, a random MAC address will be set.
